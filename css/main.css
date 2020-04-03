@@ -2,12 +2,26 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+.color {
+  background-color: #ddd;
+}
+
+.img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.cardground {
+  background-color: #efefef;
+}
+
+.table-wrapper {
+  background-color: #fff;
+}
+
 .cards {
   background-color: #fff;
-  border: 3px solid #e2e2e2;
-  border-radius: 10px;
-
-  text-align: left;
+  border-radius: 6px;
 }
 
 @media only screen and (min-width: 60em) {
